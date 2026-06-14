@@ -1,0 +1,40 @@
+/* Cores personalizadas */
+:root {
+    --rosa-salao: #ff6b9e;
+    --rosa-claro: #ffcce0;
+}
+
+.bg-pink {
+    background-color: var(--rosa-salao) !important;
+}
+
+.btn-primary {
+    background-color: var(--rosa-salao);
+    border-color: var(--rosa-salao);
+}
+
+.btn-primary:hover {
+    background-color: #e55d8b;
+    border-color: #e55d8b;
+}
+
+/* Estilo para cards de serviços */
+.card-servico {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.card-servico:hover {
+    transform: translateY(-5px);
+}
+
+/* Formulário */
+#form-cadastro {
+    background-color: var(--rosa-claro);
+}
+.custom-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
