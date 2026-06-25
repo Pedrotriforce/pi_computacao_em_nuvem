@@ -20,6 +20,7 @@ Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da U
 ## Estrutura do Projeto
 
 pi_computacao_em_nuvem/
+
 ├── Frontend/                    # Código da interface do usuário (HTML, CSS, JS)
 │   ├── index.html               # Página principal do sistema
 │   ├── cadastro.html            # Interface de cadastro de clientes
