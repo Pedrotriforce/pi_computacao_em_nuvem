@@ -22,25 +22,45 @@ Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da U
 pi_computacao_em_nuvem/
 
 ├── Frontend/                    # Código da interface do usuário (HTML, CSS, JS)
+
 │   ├── index.html               # Página principal do sistema
+
 │   ├── cadastro.html            # Interface de cadastro de clientes
+
 │   ├── servicos.html            # Interface de apresentação de serviços
+
 │   ├── css/                     # Arquivos de estilo e customizações
+
 │   ├── js/                      # Lógica assíncrona (Fetch API para consumo do Back-end)
+
 │   └── assets/images/           # Ícones e recursos visuais do salão
+
 │
+
 ├── Backend/                     # Código Java (Servidor, DAO, Modelos)
+
 │   └── Java POO/lib/pisalao/src/
+
 │       ├── ServidorWeb.java     # Servidor HTTP nativo e gerenciamento de rotas/CORS
+
 │       ├── ConexaoDB.java       # Gerenciador de instâncias de conexão com MySQL em nuvem
+
 │       ├── ClienteDAO.java      # Padrão Data Access Object para manipulação de dados
+
 │       ├── Cliente.java         # Entidade/Modelo de Cliente
+
 │       ├── Servico.java         # Entidade/Modelo de Serviço
+
 │       ├── Agendamento.java     # Entidade/Modelo de Agendamento
+
 │       └── App.java             # Classe principal para inicialização de testes locais
+
 │
+
 ├── config.properties            # Arquivo de variáveis de ambiente e credenciais do banco
+
 ├── .gitignore                   # Blindagem de arquivos sensíveis (.properties, binários)
+
 └── README.md                    # Este arquivo de documentação
 
 │   └── css/js/img/               # Arquivos de estilo e interatividade
