@@ -8,14 +8,14 @@ Projeto desenvolvido para o curso de Análise e Desenvolvimento de Sistemas da U
 
 ## Tecnologias Utilizadas
 
-| Componente | Versão | Finalidade |
-| :--- | :--- | :--- |
-| **Java JDK** | 11+ | Servidor Web nativo, integração de API e lógica de acesso a dados (DAO) |
-| **MySQL** | 8.0+ | Banco de dados relacional hospedado em nuvem (FreeDB) |
-| **HTML/CSS/JS** | - | Desenvolvimento do Front-end (View) e comunicação via Fetch API |
-| **Bootstrap** | 5 | Framework para design responsivo da interface (Front-end) |
-| **VS Code** | Latest | Editor de código principal |
-| **Git/GitHub** | - | Controle de versão de código e versionamento do repositório |
+| Componente      | Versão | Finalidade                                                              |
+| :---            | :---   | :---                                                                    |
+| **Java JDK**    | 11+    | Servidor Web nativo, integração de API e lógica de acesso a dados (DAO) |
+| **MySQL**       | 8.0+   | Banco de dados relacional hospedado em nuvem (FreeDB)                   |
+| **HTML/CSS/JS** | -      | Desenvolvimento do Front-end (View) e comunicação via Fetch API         |
+| **Bootstrap**   | 5      | Framework para design responsivo da interface (Front-end)               |
+| **VS Code**     | Latest | Editor de código principal                                              |
+| **Git/GitHub**  | -      | Controle de versão de código e versionamento do repositório             |
 
 ## Estrutura do Projeto
 
