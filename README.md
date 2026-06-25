@@ -56,23 +56,43 @@ Diferente das etapas anteriores do curso, onde o banco de dados e a interface op
 
 pi_computacao_em_nuvem/
 ├── Frontend/                    # Código da interface do usuário (HTML, CSS, JS)
+
 │   ├── index.html               # Página principal do sistema
+
 │   ├── cadastro.html            # Interface de cadastro de clientes
+
 │   ├── servicos.html            # Interface de apresentação de serviços
+
 │   ├── css/                     # Arquivos de estilo e customizações
+
 │   ├── js/                      # Lógica assíncrona (Fetch API para consumo do Back-end)
+
 │   └── assets/images/           # Ícones e recursos visuais do salão
+
 │
+
 ├── Backend/                     # Código Java (Servidor, DAO, Modelos)
+
 │   └── Java POO/lib/pisalao/src/
+
 │       ├── ServidorWeb.java     # Servidor HTTP nativo e gerenciamento de rotas/CORS
+
 │       ├── ConexaoDB.java       # Gerenciador de conexão com MySQL
+
 │       ├── ClienteDAO.java      # Manipulação de dados no banco (Padrão DAO)
+
 │       ├── Cliente.java         # Entidade Cliente
+
 │       ├── Servico.java         # Entidade Serviço
+
 │       ├── Agendamento.java     # Entidade Agendamento
+
 │       └── App.java             # Inicialização do sistema
+
 │
+
 ├── config.properties            # Arquivo de variáveis de ambiente e credenciais (Ignorado no Git)
+
 ├── .gitignore                   # Blindagem de arquivos sensíveis e binários
+
 └── README.md                    # Este arquivo de documentação
