@@ -53,7 +53,7 @@ Diferente das etapas anteriores do curso, onde o banco de dados e a interface op
 ---
 
 ## Estrutura de Diretórios
-```text
+```
 pi_computacao_em_nuvem/
 ├── Frontend/                    # Código da interface do usuário (HTML, CSS, JS)
 │   ├── index.html               # Página principal do sistema
@@ -76,3 +76,4 @@ pi_computacao_em_nuvem/
 ├── config.properties            # Arquivo de variáveis de ambiente e credenciais (Ignorado no Git)
 ├── .gitignore                   # Blindagem de arquivos sensíveis e binários
 └── README.md                    # Este arquivo de documentação
+'''
